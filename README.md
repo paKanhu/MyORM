@@ -11,7 +11,7 @@ Install with composer `composer require pakanhu/myorm`
 First, create a "Database" instance. It creates a static database connection, which will be used by "Model" internally.
 
 ```PHP
-new \paKanhu\MyOrm\Database(
+new \paKanhu\MyORM\Database(
     'db_host',
     'db_name',
     'db_username',
@@ -20,10 +20,10 @@ new \paKanhu\MyOrm\Database(
 );
 ```
 
-Extend your model from "paKanhu\MyOrm\Model". Database column names should be in snake case and corresponding properties in your class should be in camel case.
+Extend your model from "paKanhu\MyORM\Model". Database column names should be in snake case and corresponding properties in your class should be in camel case.
 
 ```PHP
-class Product extends \paKanhu\MyOrm\Model
+class Product extends \paKanhu\MyORM\Model
 {
     protected $id;          // DB Column Name - id (Primary Key)
     protected $sku;         // DB Column Name - sku
