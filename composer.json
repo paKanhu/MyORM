@@ -1,0 +1,21 @@
+{
+    "name": "pakanhu/myorm",
+    "description": "A simple PHP ORM for MySQL database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasannajit Acharya - Kanhu",
+            "email": "prasannajit.acharya.kanhu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "paKanhu\\MyORM\\": "src/"
+        }
+    }
+}
